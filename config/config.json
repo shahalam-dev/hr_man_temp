@@ -16,10 +16,16 @@
     "logging": false
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "dbproject",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "yt99ayg6i2y3e6clmt9n",
+    "password": "pscale_pw_RRrrrwO8g8pY1cp6SEm3JAuHPe4lfPx5b87lnP2R28Z",
+    "database": "hr_management",
+    "host": "aws.connect.psdb.cloud",
+    "logging": false,
+    "dialect": "mysql",
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": true
+      }
+    }
   }
 }

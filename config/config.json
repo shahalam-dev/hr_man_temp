@@ -8,12 +8,17 @@
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": "admin",
-    "database": "testDB",
-    "host": "127.0.0.1",
+    "username": "2reh8ukvkbornchb712s",
+    "password": "pscale_pw_n0eS59ObGi94UDEsWQv6k0C5ynh6uJJrNLuVDFSQZcP",
+    "database": "lincoln",
+    "host": "aws.connect.psdb.cloud",
+    "logging": false,
     "dialect": "mysql",
-    "logging": false
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": true
+      }
+    }
   },
   "production": {
     "username": "yt99ayg6i2y3e6clmt9n",

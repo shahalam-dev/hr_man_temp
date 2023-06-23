@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "root",
+    "password": "admin",
+    "database": "hr_management",
+    "host": "127.0.0.1",
+    "logging": false,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "admin",
+    "database": "testDB",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "dbproject",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
